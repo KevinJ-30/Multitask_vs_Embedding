@@ -1,0 +1,53 @@
+=== Final Comparison of All Approaches ===
+Generated on: 2025-02-18 23:03:19
+
+
+=== AART ===
+
+Overall Metrics:
+Accuracy: 0.6358
+F1 Score: 0.7774
+Precision: 0.6358
+Recall: 1.0000
+
+Annotator Metrics:
+Mean Annotator F1: 0.7775
+Std Annotator F1: 0.2015
+Min Annotator F1: 0.0000
+Max Annotator F1: 1.0000
+
+Detailed per-annotator metrics saved to: results/aart_annotator_metrics.json
+
+=== MULTITASK ===
+
+Overall Metrics:
+Accuracy: 0.6353
+F1 Score: 0.7033
+Precision: 0.7285
+Recall: 0.6797
+
+Annotator Metrics:
+Mean Annotator F1: 0.6222
+Std Annotator F1: 0.3176
+Min Annotator F1: 0.0000
+Max Annotator F1: 1.0000
+
+Detailed per-annotator metrics saved to: results/multitask_annotator_metrics.json
+
+=== ANNOTATOR_EMBEDDING ===
+
+Overall Metrics:
+Accuracy: 0.7449
+F1 Score: 0.8072
+Precision: 0.7770
+Recall: 0.8398
+
+Annotator Metrics:
+Mean Annotator F1: 0.7781
+Std Annotator F1: 0.2032
+Min Annotator F1: 0.0000
+Max Annotator F1: 1.0000
+
+Detailed per-annotator metrics saved to: results/annotator_embedding_annotator_metrics.json
+
+=== End of Report ===

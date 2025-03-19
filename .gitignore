@@ -1,0 +1,51 @@
+# Project-specific
+data/md_agreement/
+models/checkpoints/
+results/*.json
+results/final_comparison.txt
+logs/experiment.log
+wandb/
+
+# Large model files
+*.pt
+*.pth
+*.bin
+*.ckpt
+transformers_cache/
+pretrained_models/
+
+# Python
+__pycache__/
+*.py[cod]
+.env
+venv/
+*.egg-info/
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+
+# Environment
+.env
+.venv
+venv/
+ENV/
+.conda/
+*.conda
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+*.out
+*.err
