@@ -166,6 +166,9 @@ def main():
                       help='Add annotator-specific noise to labels')
     parser.add_argument('--noise_level', type=float, default=0.2,
                       help='Noise level to apply to all annotators (0.0 to 1.0)')
+    parser.add_argument('--use_weighted_embeddings', 
+                       action='store_true',
+                       help='Whether to use weighted embeddings for annotator representations')
     
     # Parse the arguments before using them
     args = parser.parse_args()

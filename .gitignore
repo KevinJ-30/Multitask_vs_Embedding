@@ -1,40 +1,41 @@
-# Project-specific
-data/md_agreement/
-models/checkpoints/
-results/*.json
-results/final_comparison.txt
-logs/experiment.log
+# Data directories (anywhere in the project)
+**/data/md_agreement/
+**/processed/
+**/results/
+**/logs/
 wandb/
+outputs/
 
-# Large model files
+# Keep .gitkeep files
+!.gitkeep
+
+# Model files and caches
+models/checkpoints/
 *.pt
 *.pth
 *.bin
 *.ckpt
+*.h5
 transformers_cache/
 pretrained_models/
-
-# Python
+.cache/
 __pycache__/
 *.py[cod]
-.env
-venv/
-*.egg-info/
-
-# IDE
-.idea/
-.vscode/
-
-# OS
-.DS_Store
 
 # Environment
 .env
 .venv
+env/
 venv/
 ENV/
 .conda/
 *.conda
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
 
 # OS
 .DS_Store
